@@ -1,0 +1,15 @@
+App:
+  RunMode: debug
+  PageSize: 10
+  JwtSecret: 123
+Server:
+  HttpPort: 8000
+  ReadTimeout: 60
+  WriteTimeout: 60
+Database:
+  Type: mysql
+  User: root
+  Password: root
+  Host: 127.0.0.1:3306
+  Name: blog
+  TablePrefix: blog_
